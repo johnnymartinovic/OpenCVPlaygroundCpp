@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AF374AA6279701BB0049D6F3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AF76766E2796D52A00C59862 /* OpenCVTutTry06 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenCVTutTry06; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF7676712796D52A00C59862 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AF7676792796DA8800C59862 /* OpenCVTutTry06.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenCVTutTry06.entitlements; sourceTree = "<group>"; };
@@ -52,6 +53,7 @@
 		AF7676652796D52A00C59862 = {
 			isa = PBXGroup;
 			children = (
+				AF374AA6279701BB0049D6F3 /* README.md */,
 				AF7676702796D52A00C59862 /* OpenCVTutTry06 */,
 				AF76766F2796D52A00C59862 /* Products */,
 			);
