@@ -8,7 +8,6 @@ using namespace cv;
 using namespace std;
 
 int cameraToGray() {
-    
     VideoCapture cap(0);
     Mat inputImg;
     Mat outputImg;
@@ -63,4 +62,8 @@ void cameraFaceDetection() {
         imshow("Image", inputImg);
         waitKey(1);
     }
+}
+
+int main() {
+    cameraToGray();
 }

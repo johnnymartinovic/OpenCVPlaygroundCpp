@@ -44,7 +44,7 @@ Stitcher::Mode mode = Stitcher::PANORAMA;
 // Array for pictures
 vector<Mat> imgs;
 
-int main()
+int main3()
 {
     imgs.push_back(imread("Resources/polica1.jpeg"));
     imgs.push_back(imread("Resources/polica2.jpeg"));
