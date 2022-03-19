@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF7676722796D52A00C59862 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF7676712796D52A00C59862 /* main.cpp */; };
+		AF374AAA279708B90049D6F3 /* Chapter2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF374AA9279708B90049D6F3 /* Chapter2.cpp */; };
+		AF374AAB279709E50049D6F3 /* Chapter1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF7676712796D52A00C59862 /* Chapter1.cpp */; };
+		AF374AAD279783C10049D6F3 /* Chapter3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF374AAC279783C10049D6F3 /* Chapter3.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,8 +26,16 @@
 
 /* Begin PBXFileReference section */
 		AF374AA6279701BB0049D6F3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AF374AA9279708B90049D6F3 /* Chapter2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter2.cpp; sourceTree = "<group>"; };
+		AF374AAC279783C10049D6F3 /* Chapter3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter3.cpp; sourceTree = "<group>"; };
+		AF497C3127ADF15500DD1EBE /* first.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = first.jpg; sourceTree = "<group>"; };
+		AF497C3227ADF15500DD1EBE /* second.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = second.jpg; sourceTree = "<group>"; };
+		AF497C3327ADF55500DD1EBE /* drugo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drugo.jpg; sourceTree = "<group>"; };
+		AF497C3427ADF55500DD1EBE /* prvo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = prvo.jpg; sourceTree = "<group>"; };
+		AF497C3527ADFF7700DD1EBE /* polica2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = polica2.jpeg; sourceTree = "<group>"; };
+		AF497C3627ADFF7700DD1EBE /* polica1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = polica1.jpeg; sourceTree = "<group>"; };
 		AF76766E2796D52A00C59862 /* OpenCVTutTry06 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenCVTutTry06; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF7676712796D52A00C59862 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AF7676712796D52A00C59862 /* Chapter1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter1.cpp; sourceTree = "<group>"; };
 		AF7676792796DA8800C59862 /* OpenCVTutTry06.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenCVTutTry06.entitlements; sourceTree = "<group>"; };
 		AF76767B2796DB7200C59862 /* paper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paper.jpg; sourceTree = "<group>"; };
 		AF76767C2796DB7200C59862 /* shapes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shapes.png; sourceTree = "<group>"; };
@@ -72,7 +82,9 @@
 			children = (
 				AF76767A2796DB7200C59862 /* Resources */,
 				AF7676792796DA8800C59862 /* OpenCVTutTry06.entitlements */,
-				AF7676712796D52A00C59862 /* main.cpp */,
+				AF7676712796D52A00C59862 /* Chapter1.cpp */,
+				AF374AA9279708B90049D6F3 /* Chapter2.cpp */,
+				AF374AAC279783C10049D6F3 /* Chapter3.cpp */,
 				AF7676852796DCB700C59862 /* Info.plist */,
 			);
 			path = OpenCVTutTry06;
@@ -83,6 +95,12 @@
 			children = (
 				AF76767B2796DB7200C59862 /* paper.jpg */,
 				AF76767C2796DB7200C59862 /* shapes.png */,
+				AF497C3127ADF15500DD1EBE /* first.jpg */,
+				AF497C3627ADFF7700DD1EBE /* polica1.jpeg */,
+				AF497C3527ADFF7700DD1EBE /* polica2.jpeg */,
+				AF497C3227ADF15500DD1EBE /* second.jpg */,
+				AF497C3327ADF55500DD1EBE /* drugo.jpg */,
+				AF497C3427ADF55500DD1EBE /* prvo.jpg */,
 				AF76767D2796DB7200C59862 /* lambo.png */,
 				AF76767E2796DB7200C59862 /* cards.jpg */,
 				AF76767F2796DB7200C59862 /* test.png */,
@@ -159,7 +177,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF7676722796D52A00C59862 /* main.cpp in Sources */,
+				AF374AAD279783C10049D6F3 /* Chapter3.cpp in Sources */,
+				AF374AAA279708B90049D6F3 /* Chapter2.cpp in Sources */,
+				AF374AAB279709E50049D6F3 /* Chapter1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
